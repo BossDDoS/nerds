@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>Nerds</title>
+  <link rel="styleheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="icon" href="img/icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="img/icons/180.png">
+  <link rel="manifest" href="manifest.webmanifest">
+</head>
+
+<body class="page-body">
+
+  <header class="page-header">
+    <nav class="page-navigation wrapper">
+      <a class="page-header-logo" href="index.html">
+        <img src="img/nerds-logo.svg" width="160" height="65" alt="Логотип Nerds">
+      </a>
+      <ul class="site-navigation">
+        <li>
+          <a href="blank.html">Студия</a>
+        </li>
+        <li>
+          <a href="blank.html">Клиенты</a>
+        </li>
+        <li>
+          <a class="current">Магазин</a>
+        </li>
+        <li>
+          <a href="#contacts">Контакты</a>
+        </li>
+      </ul>
+      <div class="user-navigation">
+        <a class="cart-link" href="blank.html">Корзина</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container blank">
+    <h1>Здесь скоро, что-нибудь появится</h1>
+  </main>
+
+  <footer class="main-footer">
+    <section class="footer-contacts">
+      <div class="wrapper">
+        <h2 class="visually-hidden" id="contacts">Контакты</h2>
+        <div class="footer-info">
+          <h3>NЁRDS DESIGN STUDIO</h3>
+          <p>
+            наб. Реки Карповки,<br> 5 лит П, Санкт-Петербург
+          </p>
+          <a class="contacts-phone" href="tel:+78005558628">+7 800 555-86-28</a>
+          <a class="button footer-button" href="">
+            <span>Напишите нам</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer-social wrapper">
+      <h2 class="visually-hidden">Социальные сети</h2>
+      <ul class="social-list">
+        <li class="social-item">
+          <a class="social-button" href="#">
+            <img src="img/vk-icon.svg" width="26" height="15" alt="Вконтакте">
+          </a>
+        </li>
+        <li class="social-item">
+          <a class="social-button" href="#">
+            <img src="img/fb-icon.svg" width="12" height="12" alt="Facebook">
+          </a>
+        </li>
+        <li class="social-item">
+          <a class="social-button" href="#">
+            <img src="img/insta-icon.svg" width="21" height="21" alt="Instagram">
+          </a>
+        </li>
+      </ul>
+      <div>
+        <p class="social-slogan">Давайте дружить, это выгодно!</p>
+        <p class="social-discount">Скидка 10% для друзей из социальных сетей.</p>
+      </div>
+    </section>
+  </footer>
+
+  <section class="visually-hidden modal">
+    <h2>Напишите нам</h2>
+    <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
+      <p>
+        <label for="login-login">Ваше имя:</label>
+        <input class="field-input login-user" type="text" id="login-login" name="login" placeholder="Имя Фамилия">
+      </p>
+      <p>
+        <label for="login-mail">Ваше email:</label>
+        <input class="field-input login-mail" type="text" id="login-mail" name="mail" placeholder="email@example.com">
+      </p>
+      <p>
+        <label for="login-review">Текст письма:</label>
+        <textarea class="review field-input" id="login-review" name="review" placeholder="В свободной форме"></textarea>
+      </p>
+      <button class="button button-modal" type="submit">
+        <span>Отправить</span>
+      </button>
+    </form>
+    <button class="modal-close" type="button" aria-label="Закрыть"></button>
+  </section>
+</body>
+
+</html>
